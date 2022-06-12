@@ -13,7 +13,8 @@
   "main": "./index.js",
   "repository": "github:ptrkcsk/terminal-profile",
   "scripts": {
-    "format": "xo --fix"
+    "format": "xo --fix",
+    "test": "xo"
   },
   "dependencies": {
     "run-applescript": "^6.0.0"
