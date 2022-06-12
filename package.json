@@ -15,8 +15,6 @@
     "format": "xo --fix"
   },
   "dependencies": {
-    "commander": "^9.3.0",
-    "read-pkg-up": "^9.1.0",
     "run-applescript": "^6.0.0"
   },
   "devDependencies": {
