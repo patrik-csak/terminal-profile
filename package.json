@@ -9,6 +9,7 @@
   ],
   "license": "MIT",
   "author": "Patrik Csak <p@trikcsak.com>",
+  "files": ["index.js"],
   "main": "./index.js",
   "repository": "github:ptrkcsk/terminal-profile",
   "scripts": {
