@@ -21,3 +21,7 @@ await setTerminalProfile("One Dark");
 ### `setTerminalProfile(profile)`
 
 Update all of Terminal&rsquo;s windows and tabs to the `profile` profile.
+
+## Acknowledgements
+
+Thanks to [Jimmy Bosse](https://github.com/jbosse) for his [Stack Overflow answer](https://stackoverflow.com/a/66080297/4411309)
