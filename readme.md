@@ -1,6 +1,6 @@
 # `terminal-profile`
 
-Mange macOS Terminal.app profile
+Manage macOS Terminal.app profile
 
 ## Install
 
