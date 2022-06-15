@@ -1,6 +1,6 @@
 {
   "name": "terminal-profile",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Manage macOS terminal profile",
   "keywords": [
     "macos",
@@ -27,6 +27,8 @@
   "engines": {
     "node": "14 - 16"
   },
-  "os": ["darwin"],
+  "os": [
+    "darwin"
+  ],
   "type": "module"
 }
