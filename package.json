@@ -22,7 +22,7 @@
     "run-applescript": "^6.0.0"
   },
   "devDependencies": {
-    "xo": "^0.50.0"
+    "xo": "^0.53.1"
   },
   "engines": {
     "node": "14 - 19"
