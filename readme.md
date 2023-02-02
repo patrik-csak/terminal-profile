@@ -28,7 +28,7 @@ Update all of Terminal&rsquo;s windows and tabs to the `profile` profile.
 
 ### `setTerminalProfile(profile)`
 
-Update Terminal to use the `profile` by default.
+Update Terminal to use the `profile` profile by default.
 
 ## Acknowledgements
 
