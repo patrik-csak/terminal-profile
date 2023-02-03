@@ -12,11 +12,12 @@ npm install terminal-profile
 
 ```javascript
 import {
-  setTerminalProfile,
-  setTerminalDefaultProfile,
+	setTerminalDefaultProfile,
+	setTerminalProfile,
 } from "terminal-profile";
 
 await setTerminalProfile("One Dark");
+
 await setTerminalDefaultProfile("gruvbox-dark");
 ```
 
@@ -26,9 +27,9 @@ await setTerminalDefaultProfile("gruvbox-dark");
 
 Update all of Terminal&rsquo;s windows and tabs to the `profile` profile.
 
-### `setTerminalProfile(profile)`
+### `setTerminalDefaultProfile(profile)`
 
-Update Terminal to use the `profile` profile by default.
+Update Terminal&rsquo;s default profile to `profile`.
 
 ## Acknowledgements
 
