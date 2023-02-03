@@ -1,11 +1,12 @@
 {
   "name": "terminal-profile",
   "version": "1.1.0",
-  "description": "Manage macOS terminal profile",
+  "description": "Manage macOS terminal profile (theme)",
   "keywords": [
     "macos",
     "terminal",
-    "profile"
+    "profile",
+    "theme"
   ],
   "license": "MIT",
   "author": "Patrik Csak <p@trikcsak.com>",
