@@ -1,6 +1,6 @@
 # `terminal-profile`
 
-Manage macOS Terminal.app profile
+Node.js library for managing the macOS Terminal.app&rsquo;s profile (aka theme)
 
 ## Install
 
@@ -23,13 +23,21 @@ await setTerminalDefaultProfile("gruvbox-dark");
 
 ## API
 
-### `setTerminalProfile(profile)`
+### `setTerminalProfile`
 
-Update all of Terminal&rsquo;s windows and tabs to the `profile` profile.
+```typescript
+function setTerminalProfile(profile: string): Promise<void>;
+```
 
-### `setTerminalDefaultProfile(profile)`
+Update all of Terminal&rsquo;s windows and tabs to the `profile` profile
 
-Update Terminal&rsquo;s default profile to `profile`.
+### `setTerminalDefaultProfile`
+
+```typescript
+function setTerminalDefaultProfile(profile: string): Promise<void>;
+```
+
+Update Terminal&rsquo;s default profile to `profile`
 
 ## Acknowledgements
 
@@ -38,3 +46,7 @@ Thanks to [Jimmy Bosse](https://github.com/jbosse) for his [Stack Overflow answe
 ## Related
 
 - [auto-terminal-profile](https://github.com/ptrkcsk/auto-terminal-profile) - Automatically switch the macOS Terminal profile based on the system-wide dark / light appearance mode
+
+## Acknowledgements
+
+Thanks to [Jimmy Bosse](https://github.com/jbosse) for his [Stack Overflow answer](https://stackoverflow.com/a/66080297/4411309)
