@@ -18,7 +18,11 @@ await setTerminalProfile("One Dark");
 
 ## API
 
-### `setTerminalProfile(profile: string): Promise<void>`
+### `setTerminalProfile`
+
+```typescript
+function setTerminalProfile(profile: string): Promise<void>;
+```
 
 Update all of Terminal&rsquo;s windows and tabs to the `profile` profile
 
