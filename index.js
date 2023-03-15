@@ -10,6 +10,10 @@ export async function setTerminalProfile(profile) {
 end tell`);
 }
 
+/**
+ * @param {string} profile
+ * @return {Promise<void>}
+ */
 export async function setTerminalDefaultProfile(profile) {
 	await runAppleScript(`tell application "Terminal"
 	set default settings to settings set "${profile}"
