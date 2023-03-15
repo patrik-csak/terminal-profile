@@ -9,3 +9,13 @@ export async function setTerminalProfile(profile) {
 	set current settings of tabs of windows to settings set "${profile}"
 end tell`);
 }
+
+/**
+ * @param {string} profile
+ * @return {Promise<void>}
+ */
+export async function setTerminalDefaultProfile(profile) {
+	await runAppleScript(`tell application "Terminal"
+	set default settings to settings set "${profile}"
+end tell`);
+}
