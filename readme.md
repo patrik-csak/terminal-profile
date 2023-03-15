@@ -1,6 +1,6 @@
 # `terminal-profile`
 
-Node.js library for managing the macOS Terminal.app&rsquo;s profile (aka theme)
+Node.js library for managing the macOS Terminal.app’s profile (aka theme)
 
 ## Install
 
@@ -24,7 +24,7 @@ await setTerminalProfile("One Dark");
 function setTerminalProfile(profile: string): Promise<void>;
 ```
 
-Update all of Terminal&rsquo;s windows and tabs to the `profile` profile
+Update all of Terminal’s windows and tabs to the `profile` profile
 
 ## Related
 
