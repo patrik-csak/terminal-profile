@@ -18,7 +18,7 @@ import {
 
 await setTerminalProfile("One Dark");
 
-await setTerminalDefaultProfile("gruvbox-dark");
+await setTerminalDefaultProfile("One Light");
 ```
 
 ## API
@@ -37,15 +37,11 @@ Update all of Terminal’s windows and tabs to the `profile` profile
 function setTerminalDefaultProfile(profile: string): Promise<void>;
 ```
 
-Update Terminal&rsquo;s default profile to `profile`
-
-## Acknowledgements
-
-Thanks to [Jimmy Bosse](https://github.com/jbosse) for his [Stack Overflow answer](https://stackoverflow.com/a/66080297/4411309)
+Update Terminal’s default profile to `profile`
 
 ## Related
 
-- [auto-terminal-profile](https://github.com/ptrkcsk/auto-terminal-profile) - Automatically switch the macOS Terminal profile based on the system-wide dark / light appearance mode
+- [auto-terminal-profile](https://github.com/ptrkcsk/auto-terminal-profile) – Automatically switch macOS Terminal’s profile (theme) based on the system-wide dark / light appearance mode
 
 ## Acknowledgements
 
