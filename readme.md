@@ -8,22 +8,9 @@ Node.js library for managing the macOS Terminal.app’s profile (aka theme)
 npm install terminal-profile
 ```
 
-## Usage
-
-```javascript
-import {
-	setTerminalDefaultProfile,
-	setTerminalProfile,
-} from "terminal-profile";
-
-await setTerminalProfile("One Dark");
-
-await setTerminalDefaultProfile("One Light");
-```
-
 ## API
 
-### `setTerminalProfile`
+### `setTerminalProfile()`
 
 ```typescript
 function setTerminalProfile(profile: string): Promise<void>;
@@ -31,13 +18,25 @@ function setTerminalProfile(profile: string): Promise<void>;
 
 Update all of Terminal’s windows and tabs to the `profile` profile
 
-### `setTerminalDefaultProfile`
+```javascript
+import { setTerminalProfile } from "terminal-profile";
+
+await setTerminalProfile("One Dark");
+```
+
+### `setTerminalDefaultProfile()`
 
 ```typescript
 function setTerminalDefaultProfile(profile: string): Promise<void>;
 ```
 
 Update Terminal’s default profile to `profile`
+
+```javascript
+import { setTerminalDefaultProfile } from "terminal-profile";
+
+await setTerminalDefaultProfile("One Light");
+```
 
 ## Related
 
