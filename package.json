@@ -23,10 +23,10 @@
     "run-applescript": "^6.0.0"
   },
   "devDependencies": {
-    "xo": "^0.53.1"
+    "xo": "^0.54.2"
   },
   "engines": {
-    "node": ">=14 <=19"
+    "node": ">=16 <=20"
   },
   "os": [
     "darwin"
