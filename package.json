@@ -20,7 +20,7 @@
     "test": "xo"
   },
   "dependencies": {
-    "run-applescript": "^6.0.0"
+    "run-applescript": "^7.0.0"
   },
   "devDependencies": {
     "xo": "^0.54.2"
