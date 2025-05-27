@@ -16,14 +16,17 @@
   "main": "./index.js",
   "repository": "github:patrik-csak/terminal-profile",
   "scripts": {
-    "format": "xo --fix",
-    "test": "xo"
+    "format": "eslint --fix && npm run prettier -- --write",
+    "prettier": "prettier .",
+    "test": "eslint && npm run prettier -- --check"
   },
   "dependencies": {
     "run-applescript": "^7.0.0"
   },
   "devDependencies": {
-    "xo": "^0.54.2"
+    "eslint": "^9.27.0",
+    "prettier": "^3.5.3",
+    "xo": "^1.0.0"
   },
   "engines": {
     "node": ">=20 <=24"
