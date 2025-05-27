@@ -8,17 +8,18 @@
     "profile",
     "theme"
   ],
+  "repository": "github:patrik-csak/terminal-profile",
   "license": "MIT",
   "author": "Patrik Csak <p@trikcsak.com>",
+  "type": "module",
+  "main": "./index.js",
   "files": [
     "index.js"
   ],
-  "main": "./index.js",
-  "repository": "github:patrik-csak/terminal-profile",
   "scripts": {
-    "format": "eslint --fix && npm run prettier -- --write",
+    "format": "eslint --fix && npm run prettier -- --write && sort-package-json",
     "prettier": "prettier .",
-    "test": "eslint && npm run prettier -- --check"
+    "test": "eslint && npm run prettier -- --check && sort-package-json --check"
   },
   "dependencies": {
     "run-applescript": "^7.0.0"
@@ -26,6 +27,7 @@
   "devDependencies": {
     "eslint": "^9.27.0",
     "prettier": "^3.5.3",
+    "sort-package-json": "^3.2.1",
     "xo": "^1.0.0"
   },
   "engines": {
@@ -33,6 +35,5 @@
   },
   "os": [
     "darwin"
-  ],
-  "type": "module"
+  ]
 }
