@@ -8,7 +8,10 @@
     "profile",
     "theme"
   ],
-  "repository": "github:patrik-csak/terminal-profile",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrik-csak/terminal-profile.git"
+  },
   "license": "MIT",
   "author": "Patrik Csak <p@trikcsak.com>",
   "type": "module",
