@@ -1,3 +1,3 @@
-import xo from "xo";
+import xo from 'xo';
 
-export default xo.xoToEslintConfig([{ prettier: "compat" }]);
+export default xo.xoToEslintConfig([{prettier: 'compat'}]);

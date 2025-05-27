@@ -19,9 +19,9 @@ function setTerminalProfile(profile: string): Promise<void>;
 Update all of Terminal’s windows and tabs to the `profile` profile
 
 ```javascript
-import { setTerminalProfile } from "terminal-profile";
+import {setTerminalProfile} from 'terminal-profile';
 
-await setTerminalProfile("One Dark");
+await setTerminalProfile('One Dark');
 ```
 
 ### `setTerminalDefaultProfile()`
@@ -33,9 +33,9 @@ function setTerminalDefaultProfile(profile: string): Promise<void>;
 Update Terminal’s default profile to `profile`
 
 ```javascript
-import { setTerminalDefaultProfile } from "terminal-profile";
+import {setTerminalDefaultProfile} from 'terminal-profile';
 
-await setTerminalDefaultProfile("One Light");
+await setTerminalDefaultProfile('One Light');
 ```
 
 ## Related
