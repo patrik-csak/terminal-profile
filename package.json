@@ -12,6 +12,7 @@
       "default": "./source/index.js"
     }
   },
+  "sideEffects": false,
   "engines": {
     "node": ">=22 <=24"
   },
@@ -43,6 +44,14 @@
   "files": [
     "source",
     "types"
+  ],
+  "keywords": [
+    "macos",
+    "mac",
+    "terminal",
+    "terminal.app",
+    "apple",
+    "applescript"
   ],
   "dependencies": {
     "plist": "^5.0.0",

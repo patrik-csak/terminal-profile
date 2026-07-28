@@ -5,4 +5,11 @@ export default defineConfig([
 	globalIgnores(['package-lock.json', 'types']),
 
 	...xo(),
+
+	{
+		rules: {
+			// TODO: Fix these
+			'node-test/prefer-context-mock': 'off',
+		},
+	},
 ]);
