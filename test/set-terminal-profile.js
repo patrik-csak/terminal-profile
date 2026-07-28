@@ -67,7 +67,7 @@ describe('setTerminalProfile', () => {
 
 		await setTerminalProfile({profile: 'Profile', setDefault: true});
 
-		assert.ok(setTerminalDefaultProfile.mock.callCount() === 1);
+		assert.equal(setTerminalDefaultProfile.mock.callCount(), 1);
 		assert.equal(
 			setTerminalDefaultProfile.mock.calls[0].arguments[0],
 			'Profile',
